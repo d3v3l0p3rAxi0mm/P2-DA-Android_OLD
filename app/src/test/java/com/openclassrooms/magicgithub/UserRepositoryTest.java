@@ -1,6 +1,5 @@
 package com.openclassrooms.magicgithub;
 
-import com.openclassrooms.magicgithub.api.FakeApiServiceGenerator;
 import com.openclassrooms.magicgithub.di.Injection;
 import com.openclassrooms.magicgithub.model.User;
 import com.openclassrooms.magicgithub.repository.UserRepository;
@@ -15,7 +14,6 @@ import static com.openclassrooms.magicgithub.api.FakeApiServiceGenerator.FAKE_US
 import static com.openclassrooms.magicgithub.api.FakeApiServiceGenerator.FAKE_USERS_RANDOM;
 import static org.junit.Assert.*;
 import static org.hamcrest.collection.IsIterableContainingInAnyOrder.containsInAnyOrder;
-
 
 /**
  * Unit test, which will execute on a JVM.
